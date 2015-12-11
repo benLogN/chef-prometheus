@@ -37,7 +37,7 @@ end
 default['prometheus']['log_dir']                                                          = '/var/log/prometheus'
 
 # Prometheus version to build
-default['prometheus']['version']                                                          = '0.15.1'
+default['prometheus']['version']                                                          = '0.16.1'
 
 # Prometheus source repository.
 default['prometheus']['source']['git_repository']                                         = 'https://github.com/prometheus/prometheus.git'
@@ -57,11 +57,11 @@ default['prometheus']['use_existing_user']                                      
 
 # Location for Prometheus pre-compiled binary.
 # Default for testing purposes
-default['prometheus']['binary_url']                                                       = 'https://github.com/prometheus/prometheus/releases/download/0.15.1/prometheus-0.15.1.linux-amd64.tar.gz'
+default['prometheus']['binary_url']                                                       = 'https://github.com/prometheus/prometheus/releases/download/0.16.1/prometheus-0.16.1.linux-amd64.tar.gz'
 
 # Checksum for pre-compiled binary
 # Default for testing purposes
-default['prometheus']['checksum']                                                         = '4b283ce4bf194619d03883a9cf23bd4566a5e5c3cc483b1192a1cd3c4a756118'
+default['prometheus']['checksum']                                                         = '596329f13f250846468a0f4eca027bce466b46b976c9ff6d3abc4829745d9815'
 
 # If file extension of your binary can not be determined by the URL
 # then define it here. Example 'tar.bz2'
